@@ -1,0 +1,19 @@
+
+Uid:     file format elf32-i386
+
+Disassembly of section .text:
+
+08048060 <_start>:
+ 8048060:	31 d2                	xor    %edx,%edx
+ 8048062:	31 c9                	xor    %ecx,%ecx
+ 8048064:	31 db                	xor    %ebx,%ebx
+ 8048066:	31 c0                	xor    %eax,%eax
+ 8048068:	50                   	push   %eax
+ 8048069:	68 2f 2f 69 64       	push   $0x64692f2f
+ 804806e:	68 2f 62 69 6e       	push   $0x6e69622f
+ 8048073:	68 2f 75 73 72       	push   $0x7273752f
+ 8048078:	89 e3                	mov    %esp,%ebx
+ 804807a:	50                   	push   %eax
+ 804807b:	89 e1                	mov    %esp,%ecx
+ 804807d:	b0 0b                	mov    $0xb,%al
+ 804807f:	cd 80                	int    $0x80
